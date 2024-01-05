@@ -3,36 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Gaming Hub</title>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us Form</title>
 </head>
 <body>
-    <center>
-        <h2><b>CONTACT US</b></h2>
-        <h3>Have a gaming question or need assistance? Connect with GameHub Support for prompt help and information.</h3>
-    </center>
+    <div class="container">
+        <form id="contact-form" action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <h2><b>Customer Support:</b></h2>
-    <h3>Our dedicated support team is here for you. Contact us via email at support@gamehub.com or call us at +91 123-456-7890.</h3>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <h2><b>Technical Assistance:</b></h2>
-    <h3>If you're facing technical issues, reach out to our technical support team at techsupport@gamehub.com for quick resolution.</h3>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-    <h2><b>General Inquiries:</b></h2>
-    <h3>For general information or business inquiries, email us at info@gamehub.com.</h3>
-
-    <h2><b>Visit Us:</b></h2>
-    <h3>GameHub Headquarters</h3>
-    <h3>Virtual Gaming Street, Cyber City</h3>
-
-    <h2><b>Feedback:</b></h2>
-    <h3>We value your gaming experience! Share your feedback or suggestions by emailing us at feedback@gamehub.com.</h3>
-
-    <br>
-
-    <h3><i>Your gaming satisfaction is our priority. Game on!</i></h3>
-    <h3><b>Thank you for choosing GameHub!</b></h3>
-
-    <br>
-    <a href="log-con.html" target="ft"><button type="button" style="width: 150px;">Logout</button></a>
+            <a href="log-con.html" target="ft"><button type="submit" style="width: 150px;">Submit</button></a>
+            <a href="log-con.html" target="ft"><button type="submit" style="width: 150px;">Logout</button></a>
+        </form>
+    </div>
 </body>
 </html>
+
